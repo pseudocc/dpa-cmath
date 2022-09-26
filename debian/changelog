@@ -1,0 +1,5 @@
+libcmath (1.0.0) jammy; urgency=medium
+
+  * Initial release.
+
+ -- Atlas Yu <atlas.yu@canonical.com>  Mon, 26 Sep 2022 17:57:17 +0800
