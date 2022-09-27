@@ -1,3 +1,9 @@
+libcmath (1.0.0ubuntu1) unstable; urgency=medium
+
+  * Fix debian/rules.
+
+ -- Atlas Yu <atlas.yu@canonical.com>  Tue, 27 Sep 2022 09:37:41 +0800
+
 libcmath (1.0.0) jammy; urgency=medium
 
   * Initial release.
