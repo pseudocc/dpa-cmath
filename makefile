@@ -1,7 +1,7 @@
 PREFIX=/usr/local
 CC=gcc
 
-BINDIR=$(PREFIX)/bin
+LIBDIR=$(PREFIX)/lib
 
 all: libadvmath.so
 
@@ -12,8 +12,8 @@ libadvmath.so: math.o
 	$(CC) -shared -o $@ $^
 
 install: libadvmath.so
-	install -d $(BINDIR)
-	install $^ $(BINDIR)/libadvmath.so
+	install -d $(LIBDIR)
+	install libadvmath.so $(LIBDIR)/libadvmath.so.1
 
 clean:
 	rm -f libadvmath.so math.o

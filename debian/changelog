@@ -1,3 +1,15 @@
+libcmath (1.0.1) jammy; urgency=medium
+
+  * update makefile.
+
+ -- Atlas Yu <atlas.yu@canonical.com>  Tue, 27 Sep 2022 16:04:10 +0800
+
+libcmath (1.0.0ubuntu3) jammy; urgency=medium
+
+  * Update conflict relationship.
+
+ -- Atlas Yu <atlas.yu@canonical.com>  Tue, 27 Sep 2022 15:48:32 +0800
+
 libcmath (1.0.0ubuntu2) jammy; urgency=medium
 
   * Stable build.

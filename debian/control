@@ -9,4 +9,4 @@ Package: libcmath
 Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: DPA(Debian policy adventure): math library built from C source code.
-Conflicts: libirmath (= 1)
+Conflicts: libirmath
