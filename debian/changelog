@@ -1,3 +1,9 @@
+libcmath (1.0.2) jammy; urgency=medium
+
+  * create symbolic links.
+
+ -- Atlas Yu <atlas.yu@canonical.com>  Fri, 30 Sep 2022 13:22:56 +0800
+
 libcmath (1.0.1) jammy; urgency=medium
 
   * update makefile.
