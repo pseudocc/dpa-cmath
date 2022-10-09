@@ -1,5 +1,5 @@
 Source: libcmath
-Standards-Version: 1.0.2
+Standards-Version: 1.1.0
 Section: libs
 Priority: optional
 Maintainer: Atlas Yu <atlas.yu@canonical.com>
@@ -9,4 +9,5 @@ Package: libcmath
 Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: DPA(Debian policy adventure): math library built from C source code, shared object(s).
-Conflicts: libirmath
+Conflicts: libirmath (<< 1.2.0)
+Provides: libadvmath

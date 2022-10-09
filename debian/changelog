@@ -1,3 +1,9 @@
+libcmath (1.1.0) jammy; urgency=medium
+
+  * resolve conflict with libirmath, create a virtual package: libadvmath.
+
+ -- Atlas Yu <atlas.yu@canonical.com>  Sun, 09 Oct 2022 17:50:36 +0800
+
 libcmath (1.0.2) jammy; urgency=medium
 
   * create symbolic links.
