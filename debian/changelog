@@ -1,3 +1,9 @@
+libcmath (2.0.0) jammy; urgency=medium
+
+  * move all contents to libirmath.
+
+ -- Atlas Yu <atlas.yu@canonical.com>  Tue, 11 Oct 2022 10:14:47 +0800
+
 libcmath (1.1.0) jammy; urgency=medium
 
   * resolve conflict with libirmath, create a virtual package: libadvmath.

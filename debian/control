@@ -1,13 +1,11 @@
 Source: libcmath
-Standards-Version: 1.1.0
+Standards-Version: 2.0.0
 Section: libs
 Priority: optional
 Maintainer: Atlas Yu <atlas.yu@canonical.com>
-Build-Depends: gcc (>= 4:11), make (>= 4.3), debhelper-compat (= 13)
+Build-Depends: debhelper-compat (= 13)
 
 Package: libcmath
 Architecture: all
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: DPA(Debian policy adventure): math library built from C source code, shared object(s).
-Conflicts: libirmath (<< 1.2.0)
-Provides: libadvmath
+Depends: ${misc:Depends}, ${shlibs:Depends} libirmath (>= 2)
+Description: DPA(Debian policy adventure): math library built from C source code, shared object(s), now is fully replaced by libirmath.
